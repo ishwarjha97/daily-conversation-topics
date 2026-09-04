@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Conversation Topics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💬 Daily Conversation Topics</h1>
+            <p>Your 6+ month conversation companion</p>
+        </header>
+
+        <main>
+            <div class="topic-container">
+                <div class="topic-display">
+                    <h2>Today's Topic:</h2>
+                    <div class="topic-text" id="topic-text">Loading...</div>
+                    <div class="date-display" id="date-display">Loading date...</div>
+                </div>
+
+                <div class="controls">
+                    <button id="mark-spoken" class="btn btn-primary">✓ Marked as Spoken</button>
+                    <button id="new-topic" class="btn btn-secondary">🔄 New Topic</button>
+                </div>
+
+                <div class="history-section">
+                    <h3>Conversation History</h3>
+                    <div class="history-list" id="history-list">
+                        <!-- History items will be added here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Generated for 180+ days of meaningful conversations</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
